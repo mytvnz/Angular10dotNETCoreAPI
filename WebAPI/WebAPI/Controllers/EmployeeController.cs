@@ -97,6 +97,7 @@ namespace WebAPI.Controllers
                     EmployeeName = '" + emp.EmployeeName + @"'
                     ,Department = '" + emp.Department + @"'
                     ,DateOfJoining = '" + emp.DateOfJoining + @"'
+                    ,PhotoFileName='"+emp.PhotoFileName+ @"'
                     where EmployeeId = " + emp.EmployeeId + @" 
                     ";
             DataTable table = new DataTable();

@@ -70,7 +70,7 @@ namespace WebAPI.Controllers
                 }
             }
 
-            return new JsonResult("Added Successfully");
+            return new JsonResult(dep.DepartmentName + " Added Successfully");
         }
 
 
